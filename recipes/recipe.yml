@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
-name: auraos-m
+name: auraos-main
 description: For Everyone
 
-base-image: ghcr.io/ublue-os/kinoite
+base-image: ghcr.io/ublue-os/kinoite-main
 image-version: 40
 
 modules:
