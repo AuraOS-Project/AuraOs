@@ -3,7 +3,7 @@ name: auraos-nvidia
 description: For Everyone
 
 base-image: ghcr.io/ublue-os/kinoite-nvidia
-image-version: 40
+image-version: 43
 
 modules:
   - type: files
