@@ -1,6 +1,6 @@
 # yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
 name: auraos-nvidia
-description: Nvidia sürücüleri optimize edilmiş, herkes için bozulmaz ve modern omnirole Linux dağıtımı.
+description: For Everyone
 
 base-image: ghcr.io/ublue-os/kinoite-nvidia
 image-version: 40
