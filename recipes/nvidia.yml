@@ -23,6 +23,8 @@ modules:
       - firefox-langpacks
 
   - type: bling
+    install:
+      - rpmfusion
 
   - type: default-flatpaks
     configurations:
