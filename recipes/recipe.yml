@@ -31,7 +31,6 @@ modules:
         scope: system
         install:
           - org.mozilla.firefox
-          - org.kde.discover
       - scope: user
 
   - type: signing
