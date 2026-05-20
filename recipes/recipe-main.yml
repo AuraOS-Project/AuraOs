@@ -1,0 +1,36 @@
+# yaml-language-server: $schema=https://schema.blue-build.org/recipe-v1.json
+name: auraos-m
+description: For Everyone
+
+base-image: ghcr.io/ublue-os/kinoite
+image-version: 40
+
+modules:
+  - type: files
+    files:
+      - source: system
+        destination: /
+
+  - type: rpm-ostree
+    install:
+      - vlc
+      - distrobox
+      - boxbuddy
+      - git
+      - fastfetch
+    remove:
+      - firefox
+      - firefox-langpacks
+
+  - type: blinky
+
+  - type: default-flatpaks
+    configurations:
+      - notify: true
+        scope: system
+        install:
+          - org.mozilla.firefox
+          - org.kde.discover
+      - scope: user
+
+  - type: signing
