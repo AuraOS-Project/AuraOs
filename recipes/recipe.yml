@@ -3,7 +3,7 @@ name: auraos-main
 description: For Everyone
 
 base-image: ghcr.io/ublue-os/kinoite-main
-image-version: 40
+image-version: 43
 
 modules:
   - type: files
