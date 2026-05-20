@@ -22,7 +22,7 @@ modules:
       - firefox
       - firefox-langpacks
 
-  - type: blinky
+  - type: bling
 
   - type: default-flatpaks
     configurations:
